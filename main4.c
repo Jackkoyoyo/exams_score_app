@@ -6,20 +6,17 @@ int main()
 	int r = 20;
 	int c = 69;
 	int f = 90;
+	int gr;
+	int gr1;
+	int gr2;
 
-	grade(r);
+	grade(r, &gr);
 
-	agre1 = grad;
+	grade(c, &gr1);
 
-	grade(c);
+	grade(f, &gr2);
 
-	agre2 = grad;
-
-	grade(f);
-
-	agre3 = grad;
-
-	printf("Your grades are : %d , %d and %d\n", agre1, agre2, agre3);
+	printf("Your grades are : %d, %d and %d\n", gr, gr1, gr2);
 
 	return (0);
 }
